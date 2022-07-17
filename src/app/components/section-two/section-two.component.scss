@@ -1,0 +1,27 @@
+.background-section2{
+  background: linear-gradient(180deg, var(--grey) 39.06%, var(--white) 100%);
+  transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+.section2{
+  margin: auto;
+  display: flex;
+  transform: matrix(1, 0, 0, -1, 0, 0);
+  min-height: 383px;
+  padding-left: var(--padd-horiz);
+  padding-right: var(--padd-horiz);
+}
+
+@media (max-width: 767px) { 
+  .background-section2{
+    background: var(--white);
+  }
+  .section2{
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+    padding-left: var(--padd-horiz-mobile);
+    padding-right: var(--padd-horiz-mobile);
+  }
+}
+
+

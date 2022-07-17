@@ -1,0 +1,27 @@
+.section3{
+  margin: auto;
+  display: flex;
+  background-color: var(--white);
+  min-height: 480px;
+  padding-left: var(--padd-horiz);
+  padding-right: var(--padd-horiz);
+}
+
+.pr-section3{
+  padding-right: 23%;
+}
+
+
+@media (max-width: 767px) { 
+  .section3{
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+    padding-left: var(--padd-horiz-mobile);
+    padding-right: var(--padd-horiz-mobile);
+  }
+  .pr-section3{
+    padding-right: 0;
+  }
+}
+
+

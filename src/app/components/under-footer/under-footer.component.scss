@@ -1,0 +1,15 @@
+.under-footer-sec{
+  background-color: var(--black2);
+  min-height: 42.61px;
+  padding-left: var(--padd-horiz-footer);
+  padding-right: var(--padd-horiz-footer);
+}
+
+
+@media (max-width: 767px) { 
+  .under-footer-sec{
+    min-height: 177px;
+  }
+}
+
+

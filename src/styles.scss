@@ -1,0 +1,146 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
+
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+:root{
+  --black: #3D3D3D;
+  --orange: #F2594B;
+  --orange2: #F25757;
+  --black2: #0D0C0C;
+  --grey: #F2F2F2;
+  --grey2: #5B5B5B;
+  --brown: #8C3B3B;
+  --white: #FFFFFF;
+  --padd-horiz: 15%;
+  --padd-horiz-footer: 10%;
+  --padd-horiz-mobile: 6%;
+}
+
+.desktop{
+  @extend .d-none; 
+  @extend .d-md-block;
+}
+
+.mobile{
+  @extend .d-md-none;
+}
+
+
+.header-font{
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--black2);
+}
+
+.header-button-mobile{
+  border: none !important; 
+  color: var(--white) !important;
+  margin-right: 25px;
+}
+
+.bg-white{
+  background-color: var(--white) !important;;
+}
+
+.footer-font{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 18px;
+  color: var(--grey);
+}
+
+.under-footer-font{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 18px;
+  color: var(--grey);
+}
+
+.paddingTB-15{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.t1{
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 1px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--black);
+}
+
+.t2{
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 36px;
+  color: var(--orange);
+}
+
+.t3{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 36px;
+  color: var(--black2);
+}
+
+.t4{
+  font-style: normal;
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 24px;
+}
+
+.text1{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: var(--grey);
+}
+
+.text-center-mobile{
+  text-align: unset;
+}
+
+@media (max-width: 767px) { 
+  .text-center-mobile{
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+}
+
+.black-text{
+  color: var(--black) !important;
+}
+
+.brown-text{
+  color: var(--brown) !important;
+}
+
+.orange-text{
+  color: var(--orange) !important;
+}
+
+.orange2-text{
+  color: var(--orange2) !important;
+}
+
+.gray2-text{
+  color: var(--grey2);
+}
+
+.my-5{
+  margin-top: 32px !important;
+  margin-bottom: 32px !important;
+}

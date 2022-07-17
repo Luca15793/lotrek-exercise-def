@@ -1,0 +1,26 @@
+.pr-section3{
+  padding-right: 23%;
+}
+
+.footer-line{
+  height: 5px;
+  background-color: var(--orange2);
+}
+
+.footer-section{
+  min-height: 221.06px;
+  background: linear-gradient(0deg, var(--brown), var(--brown)), var(--orange2);
+  padding-left: var(--padd-horiz-footer);
+  padding-right: var(--padd-horiz-footer);
+}
+
+.line-footer-height{
+  line-height: 25px;
+}
+
+@media (max-width: 767px) {
+  .footer-line{
+    height: 8.64px;
+  }
+}
+

@@ -1,0 +1,54 @@
+<!-- header -->
+  <!-- header desktop -->
+  <div class="desktop">
+    <div class="row header-sec header-font">
+      <div class=" d-flex">
+        <div class="col-sm-3 col-md-6 col-lg-9 my-auto">
+          <img src="assets/images/dark_logo_lotrek.png" style="width: 42px;">
+        </div>
+  
+        <div class="col-sm-3 col-md-2 col-lg-1 my-auto text-center">
+          <span class="menu-word">News</span>
+        </div>
+        <div class="col-sm-3 col-md-2 col-lg-1 my-auto text-center">
+          <span class="menu-word">Products</span>
+        </div>
+        <div class="col-sm-3 col-md-2 col-lg-1 my-auto text-center">
+          <span class="menu-word">About</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- fine header dekstop -->
+
+  <!-- header mobile -->
+  <div class="mobile">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-menu bg-white pTB-header-mobile">
+      <div class="container-fluid p-0">
+        <div class="navbar-brand me-auto" style="margin-left: 38px">
+          <img src="assets/images/dark_logo_lotrek.png" style="width: 42px;">
+        </div>
+          <button
+            class="navbar-toggler bg-white header-button-mobile"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarToggler"
+            aria-controls="navbarToggler"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            (click)="changeHamburgerMenu()"
+          >
+            <span class="navbar-toggler-icon" [ngClass]="hamburger == false ? 'x-cross-icon' : ''"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarToggler">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center header-font">
+              <li class="nav-item line-hamburger-menu"><a class="nav-link active paddingTB-15">News</a></li>
+              <li class="nav-item"><a class="nav-link active paddingTB-15" href="#">Products</a></li>
+              <li class="nav-item"><a class="nav-link active paddingTB-15" href="#">About</a></li>
+            </ul>
+          </div>
+      </div>
+    </nav>
+  </div>
+  <!-- fine header mobile -->
+  <!-- fine header -->
